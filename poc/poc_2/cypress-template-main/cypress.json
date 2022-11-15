@@ -1,0 +1,6 @@
+{
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "baseUrl": "https://www.preprod.backoffice.poc_2.tech/",
+  "defaultCommandTimeout": 110000
+}

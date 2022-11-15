@@ -1,0 +1,29 @@
+{
+  "name": "poc-qa",
+  "version": "1.0.0",
+  "description": "Projeto referente a implementacao de testes end to end para o produto Backoffice ",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://govinda_poc@bitbucket.org/automacao-poc/poc-qa.git"
+  },
+  "keywords": [
+    "QA",
+    "EndToEnd",
+    "Backoffice",
+    "Test",
+    "Automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.org/automacao-poc/poc-qa/issues"
+  },
+  "homepage": "https://bitbucket.org/automacao-poc/poc-qa#readme",
+  "devDependencies": {
+    "cypress": "^10.4.0"
+  }
+}

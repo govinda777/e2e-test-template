@@ -1,0 +1,20 @@
+[
+  {
+    "testTitle": "Login com sucesso",
+    "login": "jean.minzon+jmcom1@brainweb.com.br",
+    "pass": "Comercial@123",
+    "success" : true
+  },
+  {
+    "testTitle": "Login com erro",
+    "login": "123@brainweb.com.br",
+    "pass": "123",
+    "success" : false
+  },
+  {
+    "testTitle": "Login com falha por CPF",
+    "login": "08164696013",
+    "pass": "123",
+    "success" : false
+  }
+]
