@@ -1,4 +1,4 @@
-describe('Consumo de uma oferta via Comercializador', () => {
+describe('Consumo de uma oferta  via Comercializador', () => {
     it('passes', () => {
 
         cy.visit('https://www.homolog.backoffice.poc.tech/')
