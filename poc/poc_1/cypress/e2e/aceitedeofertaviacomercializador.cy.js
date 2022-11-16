@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 describe('Consumo de uma oferta  via Comercializador', () => {
 =======
-describe('Consumo  de   uma oferta via Comercializador', () => {
+describe('Consumo  de  uma oferta via Comercializador', () => {
 >>>>>>> 8eb75bce539c74948555f43c6d05531d74406b55
     it('passes', () => {
 
