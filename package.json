@@ -1,0 +1,23 @@
+{
+  "name": "cypress_gui",
+  "version": "1.0.0",
+  "description": "Test GUI ",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtada2022/CYPRESS_GUI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gtada2022/CYPRESS_GUI/issues"
+  },
+  "homepage": "https://github.com/gtada2022/CYPRESS_GUI#readme",
+  "dependencies": {
+    "cypress": "^10.7.0"
+  }
+}
