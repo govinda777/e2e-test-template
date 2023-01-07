@@ -1,7 +1,7 @@
 describe('empty spec', () => {
   it('passes', () => { 
     cy.request('POST','https://homolog.api.poc.tech/api/v1/identity-providers/COOPERATIVE/authentications/', 
-    {username: 'jean.minzon+jmcom1@brainweb.com.br', password: 'Comercial@123'}
+    {username: '', password: ''}
     
     ).then((response) => {
       return new Promise(resolve => {        

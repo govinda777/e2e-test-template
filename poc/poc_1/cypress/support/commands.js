@@ -26,7 +26,7 @@
 Cypress.Commands.add('login', () => {
     cy.visit('https://www.homolog.backoffice.poc.tech/')
     cy.get('div[class*="sc-AxhCb"]').should('be.visible').should('have.text', 'poc')
-    cy.get('input[name="username"]').type('jean.minzon+jmcom1@brainweb.com.br')
-    cy.get(':nth-child(2) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type('Comercial@123')
+    cy.get('input[name="username"]').type('')
+    cy.get(':nth-child(2) > .MuiFormControl-root > .MuiInputBase-root > .MuiInputBase-input').type('')
     cy.get('.MuiButton-label').click()
   })

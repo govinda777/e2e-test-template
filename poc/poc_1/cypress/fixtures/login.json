@@ -1,8 +1,8 @@
 [
   {
     "testTitle": "Login com sucesso",
-    "login": "jean.minzon+jmcom1@brainweb.com.br",
-    "pass": "Comercial@123",
+    "login": "",
+    "pass": "",
     "success" : true
   },
   {
